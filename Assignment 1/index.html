@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>My Personal Portfolio</h1>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume.html" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="biodata.html" class="nav-link">Biodata</a>
+                </li>
+                <li class="nav-item">
+                    <button id="theme-toggle" class="theme-toggle nav-link">
+                        <i class="fas fa-moon"></i>
+                        <span>Dark Mode</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to My Personal Website</h1>
+                <p>Showcasing my professional skills and personal journey through web development</p>
+                <div class="cta-buttons">
+                    <a href="resume.html" class="btn primary-btn">View Resume</a>
+                    <a href="biodata.html" class="btn secondary-btn">View Biodata</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <h2>What You'll Find Here</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Professional Resume</h3>
+                        <p>Explore my skills, work experience, and educational background in detail.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <h3>Personal Biodata</h3>
+                        <p>Learn more about my personal background, interests, and life journey.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Built with modern HTML, CSS, and JavaScript for a seamless experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="container">
+                <h2>About This Project</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>This website was created as part of the Web Technology Assignment 1, demonstrating proficiency in front-end web development technologies.</p>
+                        <p>The site features:</p>
+                        <ul>
+                            <li>Responsive design that works on all devices</li>
+                            <li>Interactive elements powered by CSS and JavaScript</li>
+                            <li>Clean, modern UI with intuitive navigation</li>
+                            <li>Dark/light mode toggle for user preference</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-desktop"></i>
+                            <p>Responsive Design Preview</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>My Personal Portfolio</h3>
+                    <p>A showcase of my professional and personal journey</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="biodata.html">Biodata</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Personal Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
